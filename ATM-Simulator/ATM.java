@@ -409,7 +409,7 @@ try{
     }
     JOptionPane.showMessageDialog(null, "Transcation Successful");
                     dp.getAmount.setText("");
-                    System.out.println(curreAccount.balance+" "+curreAccount.name);
+                    
 return;
 }
 
@@ -576,4 +576,5 @@ g.fillRect(825, 50, 5, 450);
     public static void main(String args[]){
         SwingUtilities.invokeLater(ATM::new);
     }
+
 }
